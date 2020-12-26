@@ -29,12 +29,12 @@
     </div>    
 
     <h1 style="color: white; text-align:center">{{selcountry}}</h1>
-   <p>new : {{new}}</p>
+   <!--<p>new : {{new}}</p>
     <p>active : {{active}}</p>
     <p>critical : {{critical}}</p>
     <p>recovered : {{recovered}}</p>
     <p>deaths : {{deaths}}</p>
-    <p>total : {{total}}</p>
+    <p>total : {{total}}</p>-->
 
     <div class="d-flex justify-content-center align-items-cener">
         <div class="container" style="background-color:teal">
@@ -52,6 +52,22 @@
             <p> Deaths</p>
         </div>
     </div>
+
+    <div class="d-flex justify-content-center align-items-cener">
+        <div class="container" style="background-color: skyblue">
+            <h1>{{total}}</h1>
+            <p>Total</p>
+        </div>
+        <div class="container" style="background-color: lightgray">
+            <h1>{{critical}}</h1>
+            <p>Critical </p>
+        </div>
+        <div class="container"style="background-color: green">
+            <h1>{{recovered}}</h1>
+            <p> Recovered</p>
+        </div>
+    </div>
+    
 <div class="cr">
 </div>
 </body>
