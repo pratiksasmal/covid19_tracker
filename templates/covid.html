@@ -8,13 +8,30 @@
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
     crossorigin="anonymous">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='static/main.css'>
+    
     <script src='main.js'></script>
 </head>
-
+<style type="text/css">
+        .container{
+            margin-top:10px;
+            margin-bottom: 10px;
+            border-radius:20px;
+            height:100px;
+            width:200px;
+            text-align:center;
+        }
+        .top1{
+            margin-top:50px;
+        }
+    h3 {
+        text-align:center;
+        color:white;
+    }
+</style>
+    
 <body style ="background-color: black">
-    <h1 STYLE="color:aqua; text-align: center">COVID-19 STATS</h1>
+    <h1 style="color:aqua; text-align: center">COVID-19 STATS</h1>
     <div class="top1">
     <form method = "post" class="d-flex justify-content-center align-items-center"action = "">
         {% csrf_token %}
@@ -67,7 +84,7 @@
             <p> Recovered</p>
         </div>
     </div>
-    
+
 <div class="cr">
 </div>
 </body>

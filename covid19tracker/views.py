@@ -39,3 +39,6 @@ def covidview(request):
     #else this gets executed
     context = {'list1': list1 }
     return render(request,'covid.html',context)
+
+#def style(request):
+#    return render(request,'covid.css',) 
