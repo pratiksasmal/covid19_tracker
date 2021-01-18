@@ -1,6 +1,5 @@
-/*<style type="text/css">
-.d-flex{*/
-    #container{
+/*.d-flex{*/
+    .container{
         margin-top:10px;
         margin-bottom: 10px;
         border-radius:20px;
@@ -8,11 +7,11 @@
         width:200px;
         text-align:center;
     }
-    #top1{
+    .top1{
         margin-top:50px;
     }
 h3 {
     text-align:center;
-    color:white;
+    color: skyblue;
 }
 /*</style>*/
